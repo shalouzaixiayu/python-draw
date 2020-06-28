@@ -1,5 +1,5 @@
 # python-
-目前就之开展了这些 实例， 如果其他人有更好的绘图实例， 欢迎添加到我的仓库， 谢谢。
+目前就之开展了这些实例， 如果其他人有更好的绘图实例， 欢迎添加到我的仓库， 谢谢。
 
 Help on class DrawHeart in module mydraw:
 
@@ -12,17 +12,24 @@ class DrawHeart(builtins.object)
  |  你需要这些函数库
  |  (
  |      from math import pow
+
  |      import time
+
  |      import turtle as T
+
  |      import numpy as np
+
  |      from matplotlib import pyplot as plt
+
  |      import random
  |  )
  
  |  如果你的电脑没有， 请安装：
- |  
+ 
+ 
  |  Methods defined here:
  |  
+
  |  draw_loop(self)
  |      绘制一个爱心的循环
  |  
