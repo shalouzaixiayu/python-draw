@@ -4,9 +4,11 @@
 Help on class DrawHeart in module mydraw:
 
 class DrawHeart(builtins.object)
+
  |  使用各种方式 绘制 各种爱心
  |  params: input a string(当有些方法需要string的时候)
  |  return: 各种爱心
+ 
  |  你需要这些函数库
  |  (
  |      from math import pow
@@ -16,6 +18,7 @@ class DrawHeart(builtins.object)
  |      from matplotlib import pyplot as plt
  |      import random
  |  )
+ 
  |  如果你的电脑没有， 请安装：
  |  
  |  Methods defined here:
