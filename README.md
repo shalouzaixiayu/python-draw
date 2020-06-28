@@ -11,7 +11,8 @@ class DrawHeart(builtins.object)
  
  |  你需要这些函数库
  |  (
- |      from math import pow
+
+ |     from math import pow
 
  |      import time
 
@@ -31,6 +32,7 @@ class DrawHeart(builtins.object)
  |  
 
  |  draw_loop(self)
+
  |      绘制一个爱心的循环
  |  
  |  draw_tree(self, brance)
@@ -55,12 +57,14 @@ class DrawHeart(builtins.object)
  |      using the turtle show heart
  |  
  |  get_draw_rose(self, string=None)
+ 
  |      扩展
  |      绘制玫瑰
  |      params:    默认为我自己设置的话， 如果想打印你自己的
  |      传参数 string  用空格隔开，默认三句话，
  |  
  |  get_fill_string_heart(self, string)
+ 
  |      输入爱心中间填充的话
  |      绘制爱心， 中间可以添加字符
  |      字符 范围 [1 5]
@@ -70,14 +74,17 @@ class DrawHeart(builtins.object)
  |      return heart math fun
  |  
  |  get_plt_heart(self)
+ 
  |      使用plt绘制一个彩色爱心
  |      原理也是心形方程
  |  
  |  get_string_heart(self, string)
+ 
  |      params： 输入你需要绘制的话 这个暂时只支持 英文字符串 不支持汉字
  |      return:  string heart
  |  
  |  ggg(self, n, r, d=1)
+ 
  |      玫瑰花曲线绘制
  |  
  |  koch(self, length, n)
