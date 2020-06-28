@@ -53,18 +53,15 @@ class DrawHeart(builtins.object)
  |      调用即可
  |  
  |  get_draw_heart(self)
- |      return draw heart
- |      using the turtle show heart
+ |      使用turtle绘制一个爱心
  |  
  |  get_draw_rose(self, string=None)
- 
  |      扩展
  |      绘制玫瑰
  |      params:    默认为我自己设置的话， 如果想打印你自己的
  |      传参数 string  用空格隔开，默认三句话，
  |  
  |  get_fill_string_heart(self, string)
- 
  |      输入爱心中间填充的话
  |      绘制爱心， 中间可以添加字符
  |      字符 范围 [1 5]
@@ -72,19 +69,17 @@ class DrawHeart(builtins.object)
  |  
  |  get_math_fun(self, x, y)
  |      return heart math fun
+        返回一个心形方程计算结果
  |  
  |  get_plt_heart(self)
- 
  |      使用plt绘制一个彩色爱心
  |      原理也是心形方程
  |  
  |  get_string_heart(self, string)
- 
  |      params： 输入你需要绘制的话 这个暂时只支持 英文字符串 不支持汉字
  |      return:  string heart
  |  
  |  ggg(self, n, r, d=1)
- 
  |      玫瑰花曲线绘制
  |  
  |  koch(self, length, n)
